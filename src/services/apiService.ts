@@ -1,5 +1,5 @@
 // API Service for Backend Communication
-const API_BASE_URL = 'https://imalattakip-backend-production.up.railway.app/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://imalattakip-backend-production.up.railway.app/api';
 
 class ApiService {
   private token: string | null = null;
