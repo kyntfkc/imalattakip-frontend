@@ -18,6 +18,10 @@
 .env.test.local
 .env.production.local
 
+# Dropbox credentials
+DROPBOX_CREDENTIALS.txt
+.env
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
